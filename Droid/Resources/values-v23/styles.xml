@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style
+        name="NoDisplay"
+        parent="android:Theme.Translucent.NoTitleBar">
+        <item
+            name="colorAccent">#FF4081</item>
+    </style>
+</resources>

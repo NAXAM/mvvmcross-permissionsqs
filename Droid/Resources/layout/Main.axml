@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_margin="24dp"
+        android:background="#5E6FFF"
+        android:textColor="@android:color/white"
+        app:MvxBind="Click GetLocationCommand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:text="Get Location"
+        android:id="@+id/btnGetLocation" />
+    <View
+        android:layout_margin="24dp"
+        android:background="#5E6FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:MvxBind="Visibility Visibility(LocationEnabledAndGranted)" />
+</LinearLayout>
